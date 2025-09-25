@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-size: 14px;
+            background-color: #f2f2f2;
+
+        }
+        .box{
+            background-color: white;
+            width: 700px;
+            padding: 25px;
+            margin: 50px auto 0px;
+            border-top: 5px solid red;
+            box-shadow: 0 0 7px 5px rebeccapurple;
+        }
+        .box h1{
+            text-align: center;
+            padding: 30px;
+            color: red;
+        }
+        .input{
+            width: 90%;
+            margin: 20px auto;
+        }
+        .button{
+            background-color: red;
+            color: white;
+            height: 35px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Kalvium Experience Survey</h1>
+        <div class="form">
+            <form action="">
+            <div class="input">
+                    <fieldset>
+                        <legend>Full name</legend>
+                    <input type="text" class="text-name" placeholder="Full name">
+                    <div class="input">
+                        <h4>Email</h4>
+                        <input type="email" class="email" placeholder="Email"></fieldset>
+                        </div>
+                    </fieldset>
+                        <div class="input">
+                            <h3>Rate Your Kalvium Experience</h3>
+                            <span>
+                            <input type="radio" class="radio" id="x" name="f">
+                            <label for="x">excellent</label>
+                            <input type="radio" class="radio" id="y" name="f">
+                            <label for="y">Good</label>
+                            <input type="radio" class="radio" id="z" name="f">
+                            <label for="z">Average</label>
+                            <input type="radio" class="radio" id="r" name="f">
+                            <label for="r">Poor</label>
+                            </span>
+                        </div>
+                             <div class="input">
+                            <h3>Select Your Favorite Activities</h3>
+                            <span>
+                            <input type="checkbox" class="checkbox">
+                            <label for="">Coding</label>
+                            <input type="checkbox" class="checkbox">
+                            <label for="">Gaming</label>
+                            <input type="checkbox" class="checkbox">
+                            <label for="">Discussion</label>
+                            <input type="checkbox" class="checkbox">
+                            <label for="">Workshops</label>
+                            </span>
+                        </div>
+
+                        <div class="input">
+                            <h3>Preferred Communication Method</h3>
+                            <select class="">
+                                <option>Email</option>
+                                <option>UMS</option>
+                                <option>SMS</option>
+                                <option>number</option>
+                            </select>
+                        </div>
+                        <div class="input">
+                            <h3>Additional Comments</h3>
+                            <textarea id="Additional Comments" name="Additional Comments" placeholder="selected comments" required></textarea>
+                        </div>
+
+                        <div class="button">
+                            <input type="submit" class="button" value="submit">
+                        </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
